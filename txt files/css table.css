@@ -1,0 +1,330 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    background-color: black;
+    font-size: 100px;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+p.center {
+    text-align: center;
+    color: red;
+}
+
+body {
+    background-color: linen;
+}
+h2 {
+    color: maroon;
+    margin-left: 40px;
+} 
+h8 {
+    color: navy;
+    margin-left: 20px;
+}
+body {
+    background-color: none;
+} 
+
+h11 {
+    background-color: #6495ed;
+}
+p.left {
+    background-color: lightblue;
+    text-align: left;
+    color: black;
+    margin-left: 150px;
+    margin-right: 100px;
+    width: 45%;
+}
+p.left {
+    background-color:none;
+}
+p {
+    border-top-style: none;<!-- dotted -->
+    border-right-style: none;<!-- solid -->
+    border-bottom-style: none;
+    border-left-style: none;
+} 
+
+
+
+body {
+    background-image: url("pokhara.jpg");
+}
+
+body {
+    background-image: url("bgdesert.jpg");
+}
+
+body {
+    background-image: url("gradient_bg.png");
+}
+
+body {
+    background-image: url("gradient_bg.png");
+    background-repeat: repeat-x;
+}
+body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+}
+
+body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+body {
+    background: #ffffff url("img_tree.png") no-repeat right top;
+}
+
+body {
+    color: none;
+}
+
+h12 {
+    color: #00ff00;
+}
+
+h2 {
+    color: rgb(255,0,0);
+}
+
+h15 {
+    text-align: center;
+}
+
+p.date {
+    text-align: right;
+}
+
+p.main {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+} 
+h14 {
+    text-decoration: overline;
+}
+
+h2 {
+    text-decoration: line-through;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p.uppercase {
+    text-transform: uppercase;
+}
+
+p.lowercase {
+    text-transform: lowercase;
+}
+
+p.capitalize {
+    text-transform: capitalize;
+}
+p {
+    text-indent: 50px;
+}
+p {
+    font-family: "Times New Roman", Times, serif;
+} 
+
+p.normal {
+    font-style: normal;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.oblique {
+    font-style: oblique;
+}
+
+h17 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 14px;
+}
+
+h19 {
+    font-size: 2.5em; /* 40px/16=2.5em */
+}
+
+h2 {
+    font-size: 1.875em; /* 30px/16=1.875em */
+}
+
+p {
+    font-size: 0.875em; /* 14px/16=0.875em */
+}
+
+body {
+    font-size: 100%;
+}
+
+h111 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.875em;
+}
+
+p.left {
+    font-size: 0.875em;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: pink;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+
+ul.a {
+    list-style-type: circle;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    background-image: url(sqpurple.gif);
+    background-repeat: no-repeat;
+    background-position: 0px center; 
+    padding-left: 15px; 
+}
+
+table, th, td {
+   border: 1px solid black;
+} 
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+ 
+
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 50px;
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border: 1px solid #0000ff;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top:0;
+    margin-left:100px;
+    padding-left:10px;
+    font-size:20px;
+    overflow: hidden;
+}
+div {
+    background-color:none;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    width: 175px;
+    background-color: none;
+}
